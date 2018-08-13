@@ -26,6 +26,8 @@ array=['xx', 'yy', 2, 3]
 
 var formData = new FormData();
         formData.append("file[]", $("#upload")[0].files[0]);
+        
+11.跳转页面指定跳转位置使用位置锚点
 
 flex问题学习：
 
