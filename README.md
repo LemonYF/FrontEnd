@@ -29,6 +29,8 @@ var formData = new FormData();
         
 11.跳转页面指定跳转位置使用位置锚点
 
+12.jq添加属性 $.attr()  jq 添加样式 $.addclass()  jq控制是否显示 $.show $.hidden
+
 flex问题学习：
 
 1.flex布局想要控制左右边距的话，给布局包一个固定宽度的body，在此body里面左右贴边，就可以控制中间距离，从而控制左右边距
