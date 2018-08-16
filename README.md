@@ -29,7 +29,7 @@ var formData = new FormData();
         
 11.跳转页面指定跳转位置使用位置锚点
 
-12.jq添加属性 $.attr()  jq 添加样式 $.addclass()  jq控制是否显示 $.show $.hidden
+12.jq添加属性 $.attr()  jq 添加样式 $.addclass()  jq控制是否显示 $.show $.hidden  continue 跳出当前循环  break跳出所有循$.inArray(arr[i],itemArr) 判断数组中是否存在指定值     arr = apply_option.split(','); 字符串改为数组
 
 flex问题学习：
 
