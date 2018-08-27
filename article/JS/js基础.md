@@ -1,4 +1,4 @@
-1.JS六种数据结构，num，str，null，undefine，boolean，obj <br>
+1.JS六种数据结构，num，str，null，undefined，boolean，obj <br>
 2.`object = {  name："xxx", sex: "", array:[1, 2, 3, 4]}; `<br>
 `array=['xx', 'yy', 2, 3]`<br>
 访问时数组使用索引，对象使用键值<br>
