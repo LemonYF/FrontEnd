@@ -25,7 +25,7 @@ array=['xx', 'yy', 2, 3]
 10.上传文件为多文件时，数据结构应当是对象内包多个数组 如
 
 var formData = new FormData();
-        formData.append("file[]", $("#upload")[0].files[0]);
+        formData.append("file[]", $("#upload")[0].files);
         
 11.跳转页面指定跳转位置使用位置锚点
 
