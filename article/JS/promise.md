@@ -1,4 +1,4 @@
-#promise
+# promise
 * Promise对象用于异步计算。
 * 将异步操作队列化，按照期望的顺序执行并返回符合预期的结果。
 * 可以在对象之间传递和操作Promise
@@ -18,13 +18,13 @@ $(function() {
   // 回调函数
 })
 ```
-###异步回调问题
+### 异步回调问题
 嵌套层次很深，难以维护
 无法正常使用return 和throw
 无法正常检索堆栈信息
 多个回调之间难以建立联系
 
-###promise使用
+### promise使用
 ````javascript
 new Promise(
     
