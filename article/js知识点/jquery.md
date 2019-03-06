@@ -10,6 +10,7 @@
 * continue 跳出当前循环  break跳出所有循环
 * $.inArray(arr[i],itemArr) 判断数组中是否存在指定值     
 * arr = apply_option.split(','); 字符串改为数组  
+* 使用后端框架做模板页面缺点：1.需要关心后端环境配置，耽误时间 2.使用模板变量的方式安全性不够
 ## 3. input输入框
 
 * input中onchange只有失去焦点时才会生效，oninput可以实时生效，但是只有原生JS可以使用，JQ中需要绑定方法
