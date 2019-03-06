@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4c6c67a-1ab7-4432-aa41-91174f0828de" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/article/JS/js基础.md" afterPath="$PROJECT_DIR$/article/JS/js基础.md" />
-      <change beforePath="$PROJECT_DIR$/article/JS/promise.md" afterPath="$PROJECT_DIR$/article/JS/promise.md" />
-      <change beforePath="$PROJECT_DIR$/article/Layout/handlebars.md" afterPath="$PROJECT_DIR$/article/Layout/handlebars.md" />
-      <change beforePath="$PROJECT_DIR$/article/Layout/移动端适配.md" afterPath="$PROJECT_DIR$/article/Layout/移动端适配.md" />
+      <change beforePath="$PROJECT_DIR$/article/JS/js基础.md" afterPath="$PROJECT_DIR$/article/js知识点/js基础.md" />
+      <change beforePath="$PROJECT_DIR$/article/JS/promise.md" afterPath="$PROJECT_DIR$/article/js知识点/promise.md" />
+      <change beforePath="$PROJECT_DIR$/article/JS/tips.md" afterPath="$PROJECT_DIR$/article/js知识点/tips.md" />
+      <change beforePath="$PROJECT_DIR$/article/Layout/CSS.md" afterPath="$PROJECT_DIR$/article/布局/CSS.md" />
+      <change beforePath="$PROJECT_DIR$/article/Layout/flex.md" afterPath="$PROJECT_DIR$/article/布局/flex.md" />
+      <change beforePath="$PROJECT_DIR$/article/Layout/font-icon使用方法" afterPath="$PROJECT_DIR$/article/布局/font-icon使用方法" />
+      <change beforePath="$PROJECT_DIR$/article/Layout/handlebars.md" afterPath="$PROJECT_DIR$/article/布局/handlebars.md" />
+      <change beforePath="$PROJECT_DIR$/article/Layout/移动端适配.md" afterPath="$PROJECT_DIR$/article/布局/移动端适配.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,7 +21,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="js基础.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/article/JS/js基础.md">
+        <entry file="file://$PROJECT_DIR$/article/js知识点/js基础.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="714">
@@ -30,7 +34,7 @@
         </entry>
       </file>
       <file leaf-file-name="font-icon使用方法" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/article/Layout/font-icon使用方法">
+        <entry file="file://$PROJECT_DIR$/article/布局/font-icon使用方法">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
@@ -40,7 +44,7 @@
         </entry>
       </file>
       <file leaf-file-name="flex.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/article/Layout/flex.md">
+        <entry file="file://$PROJECT_DIR$/article/布局/flex.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="0">
@@ -53,7 +57,7 @@
         </entry>
       </file>
       <file leaf-file-name="CSS.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/article/Layout/CSS.md">
+        <entry file="file://$PROJECT_DIR$/article/布局/CSS.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="325">
@@ -66,7 +70,7 @@
         </entry>
       </file>
       <file leaf-file-name="handlebars.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/article/Layout/handlebars.md">
+        <entry file="file://$PROJECT_DIR$/article/布局/handlebars.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="100">
@@ -79,7 +83,7 @@
         </entry>
       </file>
       <file leaf-file-name="移动端适配.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/article/Layout/移动端适配.md">
+        <entry file="file://$PROJECT_DIR$/article/布局/移动端适配.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
               <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
@@ -102,7 +106,7 @@
         </entry>
       </file>
       <file leaf-file-name="promise.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/article/JS/promise.md">
+        <entry file="file://$PROJECT_DIR$/article/js知识点/promise.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="507">
@@ -122,7 +126,7 @@
         </entry>
       </file>
       <file leaf-file-name="tips.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/article/JS/tips.md">
+        <entry file="file://$PROJECT_DIR$/article/js知识点/tips.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="175">
@@ -194,18 +198,6 @@
               <item name="FrontEnd" type="b2602c69:ProjectViewProjectNode" />
               <item name="FrontEnd" type="462c0819:PsiDirectoryNode" />
               <item name="article" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FrontEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FrontEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="article" type="462c0819:PsiDirectoryNode" />
-              <item name="JS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FrontEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FrontEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="article" type="462c0819:PsiDirectoryNode" />
-              <item name="Layout" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -333,16 +325,15 @@
       <workItem from="1551778986456" duration="1411000" />
       <workItem from="1551781036742" duration="55000" />
       <workItem from="1551781115766" duration="25000" />
-      <workItem from="1551781165142" duration="5032000" />
+      <workItem from="1551781165142" duration="5100000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6523000" />
+    <option name="totallyTimeSpent" value="6591000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="0" width="1613" height="1448" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -356,7 +347,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12735543" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12735543" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -388,7 +379,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/article/JS/js基础.md">
+    <entry file="file://$PROJECT_DIR$/article/js知识点/js基础.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -399,7 +390,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/article/Layout/CSS.md">
+    <entry file="file://$PROJECT_DIR$/article/布局/CSS.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -410,7 +401,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/article/Layout/flex.md">
+    <entry file="file://$PROJECT_DIR$/article/布局/flex.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -421,7 +412,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/article/Layout/handlebars.md">
+    <entry file="file://$PROJECT_DIR$/article/布局/handlebars.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -432,7 +423,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/article/Layout/移动端适配.md">
+    <entry file="file://$PROJECT_DIR$/article/布局/移动端适配.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" column="37" lean-forward="false" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
@@ -440,7 +431,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/article/JS/tips.md">
+    <entry file="file://$PROJECT_DIR$/article/js知识点/tips.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -451,7 +442,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/article/Layout/font-icon使用方法">
+    <entry file="file://$PROJECT_DIR$/article/布局/font-icon使用方法">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -459,7 +450,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/article/JS/js基础.md">
+    <entry file="file://$PROJECT_DIR$/article/js知识点/js基础.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -467,7 +458,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/article/Layout/font-icon使用方法">
+    <entry file="file://$PROJECT_DIR$/article/布局/font-icon使用方法">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -475,7 +466,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/article/Layout/flex.md">
+    <entry file="file://$PROJECT_DIR$/article/布局/flex.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -483,7 +474,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/article/Layout/CSS.md">
+    <entry file="file://$PROJECT_DIR$/article/布局/CSS.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -491,7 +482,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/article/Layout/handlebars.md">
+    <entry file="file://$PROJECT_DIR$/article/布局/handlebars.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -499,7 +490,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/article/Layout/移动端适配.md">
+    <entry file="file://$PROJECT_DIR$/article/布局/移动端适配.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" column="37" lean-forward="false" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
@@ -507,7 +498,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/article/JS/tips.md">
+    <entry file="file://$PROJECT_DIR$/article/js知识点/tips.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -515,8 +506,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/article/JS/js基础.md" />
-    <entry file="file://$PROJECT_DIR$/article/Layout/font-icon使用方法">
+    <entry file="file://$PROJECT_DIR$/article/js知识点/js基础.md" />
+    <entry file="file://$PROJECT_DIR$/article/布局/font-icon使用方法">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -524,11 +515,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/article/Layout/flex.md" />
-    <entry file="file://$PROJECT_DIR$/article/Layout/CSS.md" />
-    <entry file="file://$PROJECT_DIR$/article/Layout/handlebars.md" />
-    <entry file="file://$PROJECT_DIR$/article/JS/tips.md" />
-    <entry file="file://$PROJECT_DIR$/article/Layout/移动端适配.md">
+    <entry file="file://$PROJECT_DIR$/article/布局/flex.md" />
+    <entry file="file://$PROJECT_DIR$/article/布局/CSS.md" />
+    <entry file="file://$PROJECT_DIR$/article/布局/handlebars.md" />
+    <entry file="file://$PROJECT_DIR$/article/js知识点/tips.md" />
+    <entry file="file://$PROJECT_DIR$/article/布局/移动端适配.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
@@ -547,7 +538,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/article/JS/promise.md">
+    <entry file="file://$PROJECT_DIR$/article/js知识点/promise.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="507">
@@ -565,7 +556,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/article/JS/js基础.md">
+    <entry file="file://$PROJECT_DIR$/article/js知识点/js基础.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
@@ -582,7 +573,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/article/JS/tips.md">
+    <entry file="file://$PROJECT_DIR$/article/js知识点/tips.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -599,7 +590,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/article/Layout/CSS.md">
+    <entry file="file://$PROJECT_DIR$/article/布局/CSS.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -616,7 +607,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/article/Layout/flex.md">
+    <entry file="file://$PROJECT_DIR$/article/布局/flex.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -633,7 +624,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/article/Layout/font-icon使用方法">
+    <entry file="file://$PROJECT_DIR$/article/布局/font-icon使用方法">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
@@ -641,7 +632,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/article/Layout/handlebars.md">
+    <entry file="file://$PROJECT_DIR$/article/布局/handlebars.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -658,7 +649,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/article/Layout/移动端适配.md">
+    <entry file="file://$PROJECT_DIR$/article/布局/移动端适配.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
