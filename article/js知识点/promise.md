@@ -44,5 +44,15 @@ new Promise(
 ````
 * promise是一个代理对象，他和原先要进行的操作并无关系
 * 她通过引入一个回调，避免更多的回调
+* promise有三个状态
+    > 1.pending状态，初始化时 
+    > 2.fulfilled实现状态， 调用resolve时
+    > 3.rejected否决状态 操作失败状态，调用rejected时
+* promise状态发生改变，就会触发.then()里的响应函数处理后续步骤
+* promise状态一旦改变，就不会再变。
+
+### Promise调用图解
+![Promise](../img/Promise.jpg)
+
 
   
