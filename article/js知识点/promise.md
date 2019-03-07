@@ -54,5 +54,39 @@ new Promise(
 ### Promise调用图解
 ![Promise](../img/Promise.jpg)
 
+#### 简单实例
+* 单次执行
+````javascript 1.6
+// 定时执行
+console.log('here we go');
+new Promise(reslove => {
+    setTimeout(() => {
+        resolve('hello')
+    }, 2000);
+}).then(value => {
+    console.log(value + 'world');
+});
+````
+* 两次顺序执行
+
+````javascript 1.6
+// 定时执行
+console.log('here we go');
+new Promise(resolve => {
+    setTimeout(() => {
+        resolve('hello')
+    }, 2000);
+}).then(value => { 
+    console.log(value);
+    return new Promise(resolve => {
+        setTimeout(() => {
+            resolve('world')
+        })
+    }).then(value => {
+        console.log(value + 'world');
+    })
+});
+````
+
 
   
