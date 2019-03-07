@@ -46,7 +46,9 @@ new Promise(
 * 她通过引入一个回调，避免更多的回调
 * promise有三个状态
     > 1.pending状态，初始化时 
+    
     > 2.fulfilled实现状态， 调用resolve时
+    
     > 3.rejected否决状态 操作失败状态，调用rejected时
 * promise状态发生改变，就会触发.then()里的响应函数处理后续步骤
 * promise状态一旦改变，就不会再变。
@@ -121,6 +123,82 @@ new Promise(resolve => {
     >如果返回新的Promise，那么下一级的.then()会在新的Promise状态改变之后执行
     
     >如果返回其他任何值，则会立即执行下一个.then()
+* .then()里面还有.then()的情况
+因为。then()返回的还是Promise实例，所以会等里面的.then执行完后，在执行外面的.then()
+
+### 不同的Promise实例的区别
+    
+    // #1
+    doSomething().then(function(){
+        return doSomeThingElse()
+    })
+    
+    // #2
+    doSomething().then(function(){
+        doSomeThingElse()
+    })
+    
+    // #3
+    doSomething().then(doSomeThingElse()})
+    
+    // #4
+    doSomething().then(doSomeThingElse)
+````javascript
+// 问题一
+doSomething()
+    .then(function () {
+        return doSomethingElse();
+    })
+    .then(finalHandler);
+// 答案
+// doSomething
+// |-----------|
+//             doSomethingElse(undefined)
+//             |------------|
+//                          finalHandler(resultOfDoSomethingElse)
+//                          |------------|
+
+
+// 问题二
+doSomething()
+    .then(function () {
+        doSomethingElse();
+    })
+    .then(finalHandler);
+// 答案
+// doSomething
+// |------------------|
+//                    doSomethingElse(undefined)
+//                    |------------------|
+//                    finalHandler(undefined)
+//                    |------------------|
+
+
+// 问题三
+doSomething()
+    .then(doSomethingElse())
+    .then(finalHandler);
+// 答案
+// doSomething
+// |------------------|
+// doSomethingElse(undefined)
+// |----------------------------------|
+//                    finalHandler(resultOfDoSomething)
+//                    |------------------|
+
+
+// 问题四
+doSomething()
+    .then(doSomethingElse)
+    .then(finalHandler);
+// 答案
+// doSomething
+// |-----------|
+//             doSomethingElse(resultOfDoSomething)
+//             |------------|
+//                         finalHandler(resultOfDoSomethingElse)
+//                         |------------------| 
+````
 
      
 
