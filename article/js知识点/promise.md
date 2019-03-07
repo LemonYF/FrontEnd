@@ -111,6 +111,15 @@ new Promise(resolve => {
         console.log(value + ' world');
     });
 ````
+
+### .then()
+* .then()接受两个函数作为参数，分别代表fulfilled和rejected
+* .then()返回一个新的Promise实例，所以他可以链式调用
+* 当前面的Promise状态改变时，他会根据其最终状态选择特定的状态响应函数执行
+    >状态响应函数可以返回新的Promise或者其它值
+    如果返回新的Promise，那么下一级的.then()会在新的Promise状态改变之后执行
+    如果返回其他任何值，则会立即执行下一个.then()
+
      
 
 
