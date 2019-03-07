@@ -67,7 +67,7 @@ new Promise(reslove => {
     console.log(value + 'world');
 });
 ````
-* 两次顺序执行
+* 多次顺序执行
 
 ````javascript 1.6
 // 定时执行
@@ -87,6 +87,31 @@ new Promise(resolve => {
     })
 });
 ````
+* 如果promise是一个很明显的先进先出的队列情况，那么在promise完成后可以追加then()的执行器
+* 如果then里面不返回新的promise（也就是再次调用一个promise），则会立即执行它所属的下一个.then()执行器或者父级作用域下的下一个操作
+````javascript
+console.log('here we go');
+new Promise(resolve => {
+        setTimeout( () => {
+            resolve('hello');
+        }, 2000);
+    }).then( value => {
+        console.log(value);
+        console.log('everyone');
+        (function () {
+            return new Promise(resolve => {
+                setTimeout(() => {
+                    console.log('Mr.Laurence');
+                    resolve('Merry Xmas');
+                }, 2000);
+            });
+        }());
+    return false;
+    }).then( value => {
+        console.log(value + ' world');
+    });
+````
+     
 
 
   
