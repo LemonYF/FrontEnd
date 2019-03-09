@@ -96,7 +96,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="1648">
-                <caret line="150" column="6" lean-forward="true" selection-start-line="150" selection-start-column="6" selection-end-line="150" selection-end-column="6" />
+                <caret line="150" column="6" lean-forward="false" selection-start-line="150" selection-start-column="6" selection-end-line="150" selection-end-column="6" />
                 <folding>
                   <marker date="1552142382704" expanded="true" signature="161:232" ph="{...}" />
                   <marker date="1552142382704" expanded="true" signature="192:228" ph="{...}" />
@@ -111,9 +111,13 @@
         <entry file="file://$PROJECT_DIR$/article/小程序mpvue的学习/mpvue学习之路.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="225">
-                <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-                <folding />
+              <first_editor relative-caret-position="275">
+                <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+                <folding>
+                  <marker date="1552146951437" expanded="true" signature="1057:1135" ph="{&quot;NODE_ENV&quot;: '&quot;development&quot;'...}" />
+                  <marker date="1552146951437" expanded="true" signature="1170:1251" ph="{&quot;NODE_ENV&quot;: '&quot;production&quot;'...}" />
+                  <marker date="1552146951437" expanded="true" signature="1358:1390" ph="{&quot;url&quot;: `${baseURL}/products`...}" />
+                </folding>
               </first_editor>
               <second_editor />
             </state>
@@ -125,7 +129,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="425">
-                <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+                <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -219,12 +223,6 @@
               <item name="FrontEnd" type="b2602c69:ProjectViewProjectNode" />
               <item name="FrontEnd" type="462c0819:PsiDirectoryNode" />
               <item name="article" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FrontEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FrontEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="article" type="462c0819:PsiDirectoryNode" />
-              <item name="git" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FrontEnd" type="b2602c69:ProjectViewProjectNode" />
@@ -371,12 +369,12 @@
       <workItem from="1551781036742" duration="55000" />
       <workItem from="1551781115766" duration="25000" />
       <workItem from="1551781165142" duration="20163000" />
-      <workItem from="1552144463948" duration="1568000" />
+      <workItem from="1552144463948" duration="2489000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23222000" />
+    <option name="totallyTimeSpent" value="24143000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="2578" height="1408" extended-state="6" />
@@ -816,7 +814,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="1648">
-            <caret line="150" column="6" lean-forward="true" selection-start-line="150" selection-start-column="6" selection-end-line="150" selection-end-column="6" />
+            <caret line="150" column="6" lean-forward="false" selection-start-line="150" selection-start-column="6" selection-end-line="150" selection-end-column="6" />
             <folding>
               <marker date="1552142382704" expanded="true" signature="161:232" ph="{...}" />
               <marker date="1552142382704" expanded="true" signature="192:228" ph="{...}" />
@@ -830,7 +828,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="425">
-            <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
             <folding />
           </first_editor>
           <second_editor />
@@ -840,9 +838,13 @@
     <entry file="file://$PROJECT_DIR$/article/小程序mpvue的学习/mpvue学习之路.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="225">
-            <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-            <folding />
+          <first_editor relative-caret-position="275">
+            <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <folding>
+              <marker date="1552146951437" expanded="true" signature="1057:1135" ph="{&quot;NODE_ENV&quot;: '&quot;development&quot;'...}" />
+              <marker date="1552146951437" expanded="true" signature="1170:1251" ph="{&quot;NODE_ENV&quot;: '&quot;production&quot;'...}" />
+              <marker date="1552146951437" expanded="true" signature="1358:1390" ph="{&quot;url&quot;: `${baseURL}/products`...}" />
+            </folding>
           </first_editor>
           <second_editor />
         </state>
