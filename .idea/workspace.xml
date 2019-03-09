@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4c6c67a-1ab7-4432-aa41-91174f0828de" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/article/小程序mpvue的学习/mpvue学习之路.md" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/article/git/git操作备忘录.md" afterPath="$PROJECT_DIR$/article/git/git操作备忘录.md" />
+      <change beforePath="$PROJECT_DIR$/article/小程序mpvue的学习/mpvue学习之路.md" afterPath="$PROJECT_DIR$/article/小程序mpvue的学习/mpvue学习之路.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -109,12 +107,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mpvue学习之路.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mpvue学习之路.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/article/小程序mpvue的学习/mpvue学习之路.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="200">
-                <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+              <first_editor relative-caret-position="250">
+                <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -122,12 +120,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="git操作备忘录.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="git操作备忘录.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/article/git/git操作备忘录.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="625">
-                <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+              <first_editor relative-caret-position="425">
+                <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -178,8 +176,8 @@
         <option value="$PROJECT_DIR$/article/vue学习/vue项目中问题汇总.md" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/article/js知识点/promise.md" />
-        <option value="$PROJECT_DIR$/article/小程序mpvue的学习/mpvue学习之路.md" />
         <option value="$PROJECT_DIR$/article/git/git操作备忘录.md" />
+        <option value="$PROJECT_DIR$/article/小程序mpvue的学习/mpvue学习之路.md" />
       </list>
     </option>
   </component>
@@ -227,6 +225,18 @@
               <item name="FrontEnd" type="462c0819:PsiDirectoryNode" />
               <item name="article" type="462c0819:PsiDirectoryNode" />
               <item name="git" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FrontEnd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FrontEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="article" type="462c0819:PsiDirectoryNode" />
+              <item name="vue学习" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FrontEnd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FrontEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="article" type="462c0819:PsiDirectoryNode" />
+              <item name="小程序mpvue的学习" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -361,15 +371,16 @@
       <workItem from="1551781036742" duration="55000" />
       <workItem from="1551781115766" duration="25000" />
       <workItem from="1551781165142" duration="20163000" />
-      <workItem from="1552144463948" duration="1138000" />
+      <workItem from="1552144463948" duration="1471000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22792000" />
+    <option name="totallyTimeSpent" value="23125000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="2578" height="1408" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -815,22 +826,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/article/小程序mpvue的学习/mpvue学习之路.md">
+    <entry file="file://$PROJECT_DIR$/article/git/git操作备忘录.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="200">
-            <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <first_editor relative-caret-position="425">
+            <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/article/git/git操作备忘录.md">
+    <entry file="file://$PROJECT_DIR$/article/小程序mpvue的学习/mpvue学习之路.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="625">
-            <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <first_editor relative-caret-position="250">
+            <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
