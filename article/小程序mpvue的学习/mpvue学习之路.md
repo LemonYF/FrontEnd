@@ -6,5 +6,5 @@
     2.安装vue-cli脚手架  npm install vue-cli -g
     3.创建项目  vue init mpvue/mpvue-quickstart mpvue
     4.准备Appid
->[点击查看MpVue项目demo]: https://github.com/LemonYF/mpvue
+[点击查看MpVue项目demo](https://github.com/LemonYF/mpvue):
 
