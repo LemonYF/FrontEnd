@@ -36,10 +36,16 @@
 * 11．Reduce·& reduceright reduce是数组中相邻两个元素做操作
 #### 1.5	函数
 1.	函数声明 以function XX（）{}
-2.	函数表达式 var xx=function() {}; 
-(function(){})() ; 立即执行
+2.	函数表达式 
+```javascript
+var xx=function() {}; 
+(function(){})() ; //立即执行
 return function() {}
-3.	函数构造器 var xx= Function(‘X’, ‘X’, ’XXXXX’)
+```
+3.	函数构造器 
+```javascript
+var xx= Function(‘X’, ‘X’, ’XXXXX’)
+```
 4.	函数声明会被前置 函数放在上下文任意地方都可以
 5.	函数中没有使用return时，返回值为this的内容，如果使用了return 则以return为主
 6.	Call: 传入多个参数，apply传入一个参数为数组
@@ -58,8 +64,21 @@ return function() {}
     返回闭包时牢记的一点就是：返回函数不要引用任何循环变量，或者后续会发生变化的变量。
 
 ## 1.7	es3执行上下文
+对于每个执行上下文，都有三个重要属性：
 
-### 1.VO 变量对象 AO活动对象 
+* 变量对象(Variable object，VO)
+* 作用域链(Scope chain)
+* this
+
+由执行上下文栈进行管理（Execution context stack，ECS）
+
+### 1.VO变量对象 AO活动对象 
+全局上下文变量对象: GlobalContextVO<br>
+(VO === this === global)
+
+函数上下文变量对象: FunctionContextVO<br>
+(VO === AO, 并且添加了<arguments>（形参类数组）和<formal parameters>（形参的值）)
+在函数执行上下文中，VO是不能直接访问的，此时由活动对象扮演VO的角色
 
     变量对象VO是与执行上下文相关的特殊对象,
     
@@ -68,6 +87,11 @@ return function() {}
     在global全局上下文中，变量对象也是全局对象自身，
     
     在函数上下文中，变量对象被表示为活动对象AO。
+    
+### 作用域链
+函数是javascript中唯一一个能创建出作用域的
+若函数内部嵌套着多个函数，那么从最内层函数作用域依次往外就形成了作用链。
+作用域链正是内部上下文所有变量对象（包括父变量对象）的列表
 
 ## 1.8	OOP  面向对象程序设计
     继承 XX.prototype.XX:在构造函数的prorotype上赋予新的属性值 
