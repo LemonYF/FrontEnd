@@ -14,7 +14,7 @@
 * Object.create 使用现有的对象作为原型作为新创建对象的_proto_
 * 对象上的propertyIsEnumerable是否可枚举属性决定是否可通过for...in循环枚举，但是hasOwnProperty可以查找到，就是可以先for…in查找对象的全部属性，再使用hasOwnProperty作为条件过滤当前原型的属性
 * Object.defineProperty()可以定义对象的属性
-* Get set 方法，可以用来做对象的安全性处理，使用getOwnPropertyDescriptor方法获取属性描述
+* et set 方法，可以用来做对象的安全性处理，使用getOwnPropertyDescriptor方法获取属性描述
 * 对象标签：分三种，_proto_, class(getType方法), extensible(isExtensible方法)
 * 对象序列化： JSON.stringify,将对象变为字符串，但是undefined无法序列化，JSON.parse将字符串变为对象
 ## 1.4	数组 
@@ -94,6 +94,22 @@ var xx= Function(‘X’, ‘X’, ’XXXXX’)
 作用域链正是内部上下文所有变量对象（包括父变量对象）的列表
 
 ## 1.8	OOP  面向对象程序设计
+继承
+```javascript
+/** 借助原型链实现继承
+     * 缺点：
+     * **/
+    function class1() {
+        this.type = 'class1'
+    }
+    function student1() {
+        this.name = 'student1'
+    }
+
+    student1.prototype = new class1 // prototype的作用就是使构造函数的实例能访问到原型对象上
+    const stu = new student1();
+    console.log(stu, stu.type)
+```
     继承 XX.prototype.XX:在构造函数的prorotype上赋予新的属性值 
     
     使用 yy.prototype = Object.create(XX.prototype)
