@@ -6,6 +6,8 @@
 git checkout -b test
 // 远程仓库中创建一个test分支
 git push origin test  
+或者
+git push origin dbg_lichen_star:dbg_lichen_star
 ````
 
 * 新建本地仓库并推送到git
