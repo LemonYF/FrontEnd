@@ -18,6 +18,10 @@
     同时智能推荐中涉及到的字段主要为session.robots
     message.robotIndex为智能推荐匹配后的消息的索引下标，只有当命中后才会有
 
+store.commit和store.dispatch的区别
+>dispatch：含有异步操作，例如向后台提交数据，写法：this.$store.dispatch('mutations方法名',值)
+commit：同步操作，写法：this.$store.commit('mutations方法名',值)
+
 
 
 

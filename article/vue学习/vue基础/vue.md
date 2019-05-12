@@ -29,3 +29,57 @@
     6. computed：计算属性
     7. vue中直接改变数组的值没有办法触发数据更新视图，需要使用类似push等vue的封装方法或者改变引用
     
+## vuex
+action->mutation->view
+mutation: 不能直接调用mutation，需要使用commit
+- mutation都有一个字符串的事件类型(type)和一个回调函数(handler)
+- mutation都是同步事务
+```javascript
+const store = new Vuex.Store({
+  state: {
+    count: 1
+  },
+  mutations: {
+    increment (state) {
+      // 变更状态
+      state.count++
+    }
+  }
+})
+store.commit('increment', 10)
+```
+action:
+Action提交的是mutation，而不是直接变更状态。
+Action可以包含任意异步操作。
+Action通过store.dispatch方法触发
+```javascript
+const store = new Vuex.Store({
+  state: {
+    count: 0
+  },
+  mutations: {
+    increment (state) {
+      state.count++
+    }
+  },
+  actions: {
+    increment (context) {
+      context.commit('increment')
+    }
+  }
+})
+store.dispatch('increment')
+```
+action和mutation支持同样的载荷方式和对象方式进行分发
+```javascript
+// 以载荷形式分发
+store.dispatch('incrementAsync', {
+  amount: 10
+})
+
+// 以对象形式分发
+store.dispatch({
+  type: 'incrementAsync',
+  amount: 10
+})
+```
